@@ -75,9 +75,6 @@ python -m venv .venv
 | **Ctrl + D** | 复制选中动作 |
 | **Ctrl + ↑ / ↓** | 上移 / 下移 |
 
-### 兼容旧记录
-
-旧版 `mouse_clicker_records.json` 可以直接加载，v1 的 `positions` 会被自动包装成一个 repeat=1 的动作组。
 
 ## 项目结构
 
