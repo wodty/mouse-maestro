@@ -1,3 +1,6 @@
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
 # -*- coding: utf-8 -*-
 """全局热键（F8 / F9）的行为测试。
 

@@ -1,3 +1,6 @@
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
 import os, sys, types
 
 stub = types.ModuleType("pynput"); m = types.ModuleType("pynput.mouse")

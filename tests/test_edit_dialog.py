@@ -1,3 +1,6 @@
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
 # -*- coding: utf-8 -*-
 """界面回归：编辑对话框、次数/循环、统计、右键菜单相关、新增动作、移入组。"""
 import os, sys, types

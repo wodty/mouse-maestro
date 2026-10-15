@@ -1,3 +1,6 @@
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
 # -*- coding: utf-8 -*-
 """鼠标按键（左键 / 右键）与动作列表显示 —— 测试。
 

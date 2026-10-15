@@ -1,3 +1,6 @@
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
 # -*- coding: utf-8 -*-
 """布局体检：有没有按钮被挤出窗口 / 高度不够。"""
 import os, sys, types
